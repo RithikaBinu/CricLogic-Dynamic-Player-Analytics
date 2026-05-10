@@ -1,0 +1,18 @@
+# Compiled binaries (The actual app)
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+
+# Code::Blocks specific files (local settings)
+*.depend
+*.layout
+bin/
+obj/
+
+# Operating system junk
+Thumbs.db
+.DS_Store
