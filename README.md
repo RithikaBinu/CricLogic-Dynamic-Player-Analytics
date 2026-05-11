@@ -32,6 +32,22 @@ Unlike traditional arrays with fixed sizes, this project leverages **Dynamic Mem
 
 <img width="639" height="394" alt="Screenshot 2026-02-24 193823" src="https://github.com/user-attachments/assets/66442c24-9db8-4802-890c-9220f17d09f9" />
 
+
+## ⚙️ How to Compile and Run
+
+### Option 1: Using Code::Blocks (Windows)
+1. Clone this repository or download the ZIP file.
+2. Open the `Cric Tracker.cbp` project file in the Code::Blocks IDE.
+3. Click **Build and Run** (or press `F9`).
+
+### Option 2: Using GCC Compiler (Terminal/Command Prompt)
+If you prefer the command line and have GCC installed, follow these steps:
+
+1. Open your terminal and navigate to the project directory.
+2. Compile the C files together by running:
+   ```bash
+   gcc "Cric Tracker.c" cric.c -o cric_tracker
+
 ## 📂 Project Structure
 ```text
 ├── src/
